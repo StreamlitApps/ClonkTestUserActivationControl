@@ -19,7 +19,7 @@ st.markdown("A continuación, se presenta la prueba de la lógica general de có
 st.markdown("** La  tabla a continuación es editable (dar doble clic) **")
 st.markdown("En teoría, si ahora <= el día del último pago + tiempo de prueba  media noche, está activado.")
 st.markdown("Si se excede ese valor, se desactiva al usuario.")
-st.markdown("La idea es probar que la lógica funciona aplicando casos con la tabla interativa)")
+st.markdown("La idea es probar que la lógica funciona aplicando casos con la tabla interativa")
 
 data=AgGrid(data, editable=True,
     sortable=True,
